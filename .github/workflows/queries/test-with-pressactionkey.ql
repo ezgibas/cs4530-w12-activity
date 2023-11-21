@@ -1,3 +1,9 @@
+/**
+ * @description Find tests on pressActionKey
+ * @kind problem
+ * @id javascript/functions-over-ten-lines
+ * @problem.severity recommendation
+ */
 import javascript
 
 predicate isTest(InvokeExpr expression){
