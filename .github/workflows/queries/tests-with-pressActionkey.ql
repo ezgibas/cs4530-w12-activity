@@ -10,7 +10,7 @@ predicate namedPressActionKey(Function callee){
 }
 
 
-from Function test, Function callee
+from InvokeExpr test, Function callee
 where isTest(test) and
       namedPressActionKey(callee)
 select test, "calls pressActionKey"
